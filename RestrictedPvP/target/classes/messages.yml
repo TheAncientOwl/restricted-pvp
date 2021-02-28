@@ -1,0 +1,22 @@
+# ============================================= #
+#            RestrictedPvP messages             #
+# ============================================= #
+
+configReloaded: "&7&oRestrictedPvP &8| &a&oConfig reloaded&8&o!"
+
+noPermission: "&7&oRestrictedPvP &8| &c&oYou don't have permission to do this&8&o!"
+
+blockCommand: "&7&oYou can't use this command during combat!&8&o!"
+
+teleportDeny: "&7&oTeleportation during combat is denied!&8&o!"
+
+combatEnd: "&7&oYou are no longer in combat&8&o!"
+
+#Placeholder: {attacker}
+combatTagged: "&8&o{attacker} &7&otagged you in combat&8&o!"
+
+#Placeholder: {victim}
+combatTag: "&7&oYou tagged &8&o{victim} &7&oin combat&8&o!"
+
+#Placeholder: {player}
+logoutCombatMessage: "&8&o{player} &7&odisconnected during combat&8&o!"

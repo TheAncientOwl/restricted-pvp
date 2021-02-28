@@ -1,0 +1,51 @@
+# ============================================= #
+#      RestrictedPvP developed by Bufnita       #
+# ============================================= #
+
+#block fly in combat mode
+
+#How long combat should be (in seconds)
+combatTime: 15
+
+teleportBlock:
+  #Block any kind of teleportation
+  all: true
+  #If all is enabled, following two won't have any effect
+  #Block chorus fruit teleportation
+  chorusFruit: true
+  #Block ender pearl teleportation
+  enderPearl: true
+
+whenLogout:
+  #If players should be killed when logout during combat
+  kill: true
+  #Broadcast player's logout during combat
+  broadcast: true
+
+#These commands will be whitelisted during combat time.
+#All other commands will be blocked
+whitelistedCommands:
+  - "/msg"
+  - "/r"
+  - "/helpop"
+
+#How frequently RestrictedPvP should check if a player is no longer in combat
+combatCheckInterval: 5
+
+
+# ============================================= #
+#              RestrictedPvP Info               #
+# ============================================= #
+
+# This is what RestrictedPvP does:
+# - block teleportations
+# - block all commands (except whitelistedCommands)
+# - kill players when logout during combat
+# - disable fly in pvp
+
+# List of all permission nodes:
+# - restrictedpvp.bypass.fly            -> allow to fly in combat
+# - restrictedpvp.bypass.teleport       -> allow to teleport in combat
+# - restrictedpvp.bypass.killonlogout   -> allow to logout without being killed
+# - restrictedpvp.allowcommandsincombat -> allow to use all commands in combat
+# - restrictedpvp.pvpcommand            -> allow to use /pvp command
