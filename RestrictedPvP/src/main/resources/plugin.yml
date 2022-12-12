@@ -1,6 +1,6 @@
 main: dev.buha007.restrictedpvp.Main
 name: RestrictedPvP
-api: 1.19
+api-version: 1.19
 author: Bufnita
 version: 'spigot-1.19.2'
 
