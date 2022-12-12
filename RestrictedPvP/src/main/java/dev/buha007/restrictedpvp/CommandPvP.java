@@ -4,7 +4,6 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-import dev.buha007.restrictedpvp.PvPManager;
 import net.md_5.bungee.api.ChatColor;
 
 public class CommandPvP implements CommandExecutor {

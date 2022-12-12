@@ -4,7 +4,6 @@ import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import dev.buha007.restrictedpvp.PvPManager;
 import net.md_5.bungee.api.ChatColor;
 
 public class Main extends JavaPlugin {
