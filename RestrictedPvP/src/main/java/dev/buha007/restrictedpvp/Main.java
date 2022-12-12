@@ -20,7 +20,7 @@ public class Main extends JavaPlugin {
 
         console = getServer().getConsoleSender();
         console.sendMessage(
-                ChatColor.translateAlternateColorCodes('&', "&cRestrictedPvP for 1.14.4 &edeveloped by Bufnita"));
+                ChatColor.translateAlternateColorCodes('&', "&cRestrictedPvP for 1.19.2 &edeveloped by Bufnita"));
 
         PvPManager.init(this);
         Msg.init(this);
